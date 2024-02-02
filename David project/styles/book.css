@@ -1,0 +1,199 @@
+.background-image{
+    position:fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    height: 2594px;
+    width: 1280px;
+}
+
+.image-1{
+    height: 300px;
+    position: absolute;
+   
+}
+.image1-div{
+    height: 320px;
+    position: absolute;
+    top: 300px;
+    left: 80px;
+    width: 250px;
+}
+
+.image-button{
+    position:absolute;
+    top: 630px;
+    left: 180px;
+}
+
+.image-2{
+    height: 300px;
+    position: absolute;
+   left: 60px;
+}
+
+.header{
+    font-family: 'Berkshire Swash', cursive;
+    
+   position: absolute;
+   left: 700px;
+   
+
+}
+
+.buynow-button{
+    position: absolute;
+    top: 830px;
+    left: 750px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: rgb(238, 177, 11);
+    border: none;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: padding-right 0.40s, padding-bottom 0.40s
+    , padding-top 0.40s, padding-left 0.40s;
+    z-index: 1;
+}
+
+.buynow-button:hover{
+    background-color: rgb(18, 16, 160);
+    color: white;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    cursor: pointer;
+    
+
+}
+
+
+.text1{
+    position: absolute;
+    top: 120px;
+    left: 500px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.publisher-pic{
+    height: 560px;
+    position: absolute;
+    transition: height 0.60s, width 0.60s;
+    z-index: 3;
+    left: 50px;
+    width: 450px;
+}
+
+.publisher-pic-div{
+    height: 600px;
+    width: 520px;
+    top: 200px;
+    left: 550px;
+    position: absolute;
+}
+
+.publisher-pic1{
+    height: 250px;
+    position: absolute;
+    top: 340px;
+    z-index: 2;
+    transition: height 0.60s, width 0.60s;
+    
+}
+
+.publisher-pic:hover{
+    height: 630px;
+    width: 540px;
+    
+
+
+}
+
+.publisher-pic1:hover{
+    height: 330px;
+    width: 430px;
+    bottom: 40px;
+    
+    
+}
+
+.about-author-div{
+    position: absolute;
+    top: 1150px;
+    left: 300px;
+}
+
+.dropcap{
+    font-size: 50px;
+  line-height: 1.4em;
+  font-weight: bold;
+  vertical-align: middle;
+  
+  padding: 1 8px;
+}
+
+.socialmedia{
+    position: absolute;
+    bottom: 60px;
+    left:400px;
+    height: 300px;
+    
+}
+
+
+
+.fa-brands{
+    color: black;
+    position: absolute;
+    top: 245px;
+    font-size: 80px;
+    left: 100px;
+    border-radius: 30px;
+    transition:  border-radius 0.40s ;
+
+}
+.LinkedIn{
+    position: absolute;
+    top :250px;
+    left:300px;
+    transition: border-radius 0.40s;
+}
+
+.medium{
+    position: absolute;
+top:260px ;
+left: 480px;  
+transition: border-radius 0.40s;  
+}
+
+.fa-brands:hover{
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+   
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+color: white;
+border-radius: 10px;
+cursor: pointer;
+}
+
+.LinkedIn:hover{
+
+    background-color: #36aeee ;
+    border-radius: 30px;
+    cursor: pointer;
+
+}
+
+
+.medium:hover{
+background-color: grey;
+border-radius: 30px;
+cursor: pointer;
+}
